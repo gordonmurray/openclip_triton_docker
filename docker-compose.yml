@@ -22,5 +22,8 @@ services:
     command: [
       "tritonserver",
       "--model-repository=/models",
-      "--log-verbose=1"
+      "--log-verbose=1",
+      "--log-info=1",
+      "--log-warning=1",
+      "--log-error=1"
     ]
